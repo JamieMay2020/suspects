@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Usual Suspects</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background-color: #fdfdfd;
+      color: #111;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+      border-bottom: 2px solid #111;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .article {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 1rem;
+    }
+
+    .headline {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .section-title {
+      font-size: 1.25rem;
+      margin: 1.5rem 0 0.5rem;
+      border-bottom: 1px solid #333;
+      padding-bottom: 0.25rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Usual Suspects</h1>
+  </header>
+
+  <main class="container">
+    <div class="article">
+      <div class="section-title">Politics</div>
+      <div class="headline">Government Under Fire for Budget Oversight</div>
+      <div class="headline">Opposition Demands Transparency Over New Bill</div>
+    </div>
+
+    <div class="article">
+      <div class="section-title">World</div>
+      <div class="headline">Tensions Escalate Between Regional Powers</div>
+      <div class="headline">UN Issues Warning Over Climate Migration</div>
+    </div>
+
+    <div class="article">
+      <div class="section-title">Business</div>
+      <div class="headline">Tech Giant Accused of Market Manipulation</div>
+      <div class="headline">Startups Face Crunch Amid Economic Slowdown</div>
+    </div>
+
+    <div class="article">
+      <div class="section-title">Culture</div>
+      <div class="headline">Award Show Sparks Debate Over Diversity</div>
+      <div class="headline">Controversial Play Draws Packed Crowds</div>
+    </div>
+
+    <div class="article">
+      <div class="section-title">Sports</div>
+      <div class="headline">Championship Match Ends in Dramatic Tie</div>
+      <div class="headline">Veteran Athlete Announces Retirement</div>
+    </div>
+  </main>
+</body>
+</html>
